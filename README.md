@@ -54,20 +54,10 @@ This project uses only Python standard library.
 ### Run the Pattern Generator
 
 ```bash
-python pattern_with_conditions.py
+python vk.py
 ```
 
 This will output the ASCII art pattern to your console.
-
-### Generate Code from Custom Image
-
-If you have your own ASCII art file:
-
-```bash
-python generate_code.py
-```
-
-This will analyze `vk.txt` and regenerate `pattern_with_conditions.py` with the appropriate conditional logic.
 
 ## 📁 Project Structure
 
@@ -75,9 +65,7 @@ This will analyze `vk.txt` and regenerate `pattern_with_conditions.py` with the 
 IMage project/
 │
 ├── vk.txt                          # Source ASCII art file (41 lines × 120 chars)
-├── pattern_with_conditions.py      # Main program with conditional logic
-├── generate_code.py                # Code generator script
-├── compare.py                      # Validation script to verify output
+├── vk.py      # Main program with conditional logic
 └── README.md                       # This file
 ```
 
@@ -147,7 +135,7 @@ The ASCII art uses 8 different characters:
 
 ### Code Generation Process
 
-The `generate_code.py` script:
+The `vk.py` script:
 
 1. Reads the source ASCII art file
 2. Analyzes each line character by character
@@ -177,7 +165,7 @@ for line_num, line in enumerate(lines, 1):
 ---------------------------@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-----------------------
 ```
 
-### Output (pattern_with_conditions.py execution):
+### Output (vk.py execution):
 ```
 ------------------------------------------@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@---------------------------------
 -----------------------------------@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@--------------------------
@@ -187,7 +175,7 @@ for line_num, line in enumerate(lines, 1):
 ✅ **Perfect Match!**
 
 This will:
-- Execute `pattern_with_conditions.py`
+- Execute `vk.py`
 - Compare output with `vk.txt` line by line
 - Report any mismatches with detailed position information
 

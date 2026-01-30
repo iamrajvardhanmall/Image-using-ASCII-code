@@ -1,9 +1,9 @@
 # Program to print the ASCII art from vk.txt using for loop and if-else only
 
-for i in range(1, 42):  # 41 lines
-    for j in range(1, 121):  # 120 columns
+for i in range(1, 42):  
+    for j in range(1, 121):  
         
-        # Line 1
+   
         if i == 1:
             if j <= 42:
                 print("-", end="")
@@ -12,7 +12,7 @@ for i in range(1, 42):  # 41 lines
             elif j <= 120:
                 print("-", end="")
         
-        # Line 2
+        
         elif i == 2:
             if j <= 35:
                 print("-", end="")
@@ -21,7 +21,7 @@ for i in range(1, 42):  # 41 lines
             elif j <= 120:
                 print("-", end="")
         
-        # Line 3
+     
         elif i == 3:
             if j <= 27:
                 print("-", end="")
@@ -30,7 +30,7 @@ for i in range(1, 42):  # 41 lines
             elif j <= 120:
                 print("-", end="")
         
-        # Line 4
+    
         elif i == 4:
             if j <= 24:
                 print("-", end="")
@@ -39,7 +39,7 @@ for i in range(1, 42):  # 41 lines
             elif j <= 120:
                 print("-", end="")
         
-        # Line 5
+ 
         elif i == 5:
             if j <= 20:
                 print("-", end="")
@@ -47,8 +47,7 @@ for i in range(1, 42):  # 41 lines
                 print("@", end="")
             elif j <= 120:
                 print("-", end="")
-        
-        # Line 6
+  
         elif i == 6:
             if j <= 19:
                 print("-", end="")
@@ -56,8 +55,7 @@ for i in range(1, 42):  # 41 lines
                 print("@", end="")
             elif j <= 120:
                 print("-", end="")
-        
-        # Line 7
+       
         elif i == 7:
             if j <= 17:
                 print("-", end="")
@@ -66,7 +64,7 @@ for i in range(1, 42):  # 41 lines
             elif j <= 120:
                 print("-", end="")
         
-        # Line 8
+       
         elif i == 8:
             if j <= 15:
                 print("-", end="")
@@ -78,8 +76,7 @@ for i in range(1, 42):  # 41 lines
                 print("@", end="")
             elif j <= 120:
                 print("-", end="")
-        
-        # Line 9
+    
         elif i == 9:
             if j <= 15:
                 print("-", end="")
@@ -92,7 +89,7 @@ for i in range(1, 42):  # 41 lines
             elif j <= 120:
                 print("-", end="")
         
-        # Line 10
+     
         elif i == 10:
             if j <= 14:
                 print("-", end="")
@@ -111,7 +108,7 @@ for i in range(1, 42):  # 41 lines
             elif j <= 120:
                 print("-", end="")
         
-        # Line 11
+     
         elif i == 11:
             if j <= 13:
                 print("-", end="")
@@ -136,7 +133,7 @@ for i in range(1, 42):  # 41 lines
             elif j <= 120:
                 print("-", end="")
         
-        # Line 12
+ 
         elif i == 12:
             if j <= 14:
                 print("-", end="")
@@ -161,7 +158,7 @@ for i in range(1, 42):  # 41 lines
             elif j <= 120:
                 print("-", end="")
         
-        # Line 13
+       
         elif i == 13:
             if j <= 14:
                 print("-", end="")
@@ -182,7 +179,7 @@ for i in range(1, 42):  # 41 lines
             elif j <= 120:
                 print("-", end="")
         
-        # Line 14
+   
         elif i == 14:
             if j <= 14:
                 print("-", end="")
@@ -203,7 +200,7 @@ for i in range(1, 42):  # 41 lines
             elif j <= 120:
                 print("-", end="")
         
-        # Line 15
+   
         elif i == 15:
             if j <= 14:
                 print("-", end="")
@@ -224,7 +221,7 @@ for i in range(1, 42):  # 41 lines
             elif j <= 120:
                 print("-", end="")
         
-        # Line 16
+ 
         elif i == 16:
             if j <= 14:
                 print("-", end="")
@@ -247,7 +244,7 @@ for i in range(1, 42):  # 41 lines
             elif j <= 120:
                 print("-", end="")
         
-        # Line 17
+
         elif i == 17:
             if j <= 15:
                 print("-", end="")
@@ -270,7 +267,7 @@ for i in range(1, 42):  # 41 lines
             elif j <= 120:
                 print("-", end="")
         
-        # Line 18
+        
         elif i == 18:
             if j <= 6:
                 print("-", end="")
@@ -304,8 +301,7 @@ for i in range(1, 42):  # 41 lines
                 print("@", end="")
             elif j <= 120:
                 print("-", end="")
-        
-        # Line 19
+       
         elif i == 19:
             if j <= 5:
                 print("-", end="")
@@ -356,7 +352,7 @@ for i in range(1, 42):  # 41 lines
             elif j <= 120:
                 print("-", end="")
         
-        # Line 20
+    
         elif i == 20:
             if j <= 5:
                 print("-", end="")
@@ -417,7 +413,7 @@ for i in range(1, 42):  # 41 lines
             elif j <= 120:
                 print("-", end="")
         
-        # Line 21
+    
         elif i == 21:
             if j <= 6:
                 print("-", end="")
@@ -507,8 +503,7 @@ for i in range(1, 42):  # 41 lines
                 print("@", end="")
             elif j <= 120:
                 print("-", end="")
-        
-        # Line 22
+     
         elif i == 22:
             if j <= 7:
                 print("-", end="")
@@ -565,7 +560,7 @@ for i in range(1, 42):  # 41 lines
             elif j <= 120:
                 print("-", end="")
         
-        # Line 23
+  
         elif i == 23:
             if j <= 9:
                 print("-", end="")
@@ -608,7 +603,7 @@ for i in range(1, 42):  # 41 lines
             elif j <= 120:
                 print("-", end="")
         
-        # Line 24
+        
         elif i == 24:
             if j <= 10:
                 print("-", end="")
@@ -653,7 +648,7 @@ for i in range(1, 42):  # 41 lines
             elif j <= 120:
                 print("-", end="")
         
-        # Line 25
+   
         elif i == 25:
             if j <= 12:
                 print("-", end="")
@@ -693,8 +688,7 @@ for i in range(1, 42):  # 41 lines
                 print("@", end="")
             elif j <= 120:
                 print("-", end="")
-        
-        # Line 26
+      
         elif i == 26:
             if j <= 13:
                 print("-", end="")
@@ -739,7 +733,7 @@ for i in range(1, 42):  # 41 lines
             elif j <= 120:
                 print("-", end="")
         
-        # Line 27
+    
         elif i == 27:
             if j <= 16:
                 print("-", end="")
@@ -766,7 +760,7 @@ for i in range(1, 42):  # 41 lines
             elif j <= 120:
                 print("-", end="")
         
-        # Line 28
+ 
         elif i == 28:
             if j <= 23:
                 print("-", end="")
@@ -805,7 +799,7 @@ for i in range(1, 42):  # 41 lines
             elif j <= 120:
                 print("-", end="")
         
-        # Line 29
+      
         elif i == 29:
             if j <= 27:
                 print("-", end="")
@@ -862,7 +856,7 @@ for i in range(1, 42):  # 41 lines
             elif j <= 120:
                 print("-", end="")
         
-        # Line 30
+    
         elif i == 30:
             if j <= 27:
                 print("-", end="")
@@ -871,7 +865,7 @@ for i in range(1, 42):  # 41 lines
             elif j <= 120:
                 print("-", end="")
         
-        # Line 31
+       
         elif i == 31:
             if j <= 27:
                 print("-", end="")
@@ -880,7 +874,6 @@ for i in range(1, 42):  # 41 lines
             elif j <= 120:
                 print("-", end="")
         
-        # Line 32
         elif i == 32:
             if j <= 26:
                 print("-", end="")
@@ -897,7 +890,7 @@ for i in range(1, 42):  # 41 lines
             elif j <= 120:
                 print("-", end="")
         
-        # Line 33
+       
         elif i == 33:
             if j <= 24:
                 print("-", end="")
@@ -914,7 +907,7 @@ for i in range(1, 42):  # 41 lines
             elif j <= 120:
                 print("-", end="")
         
-        # Line 34
+   
         elif i == 34:
             if j <= 21:
                 print("-", end="")
@@ -931,7 +924,7 @@ for i in range(1, 42):  # 41 lines
             elif j <= 120:
                 print("-", end="")
         
-        # Line 35
+       
         elif i == 35:
             if j <= 20:
                 print("-", end="")
@@ -944,7 +937,7 @@ for i in range(1, 42):  # 41 lines
             elif j <= 120:
                 print("-", end="")
         
-        # Line 36
+        
         elif i == 36:
             if j <= 17:
                 print("-", end="")
@@ -957,7 +950,7 @@ for i in range(1, 42):  # 41 lines
             elif j <= 120:
                 print("-", end="")
         
-        # Line 37
+        
         elif i == 37:
             if j <= 14:
                 print("-", end="")
@@ -968,7 +961,7 @@ for i in range(1, 42):  # 41 lines
             elif j <= 120:
                 print(":", end="")
         
-        # Line 38
+       
         elif i == 38:
             if j <= 8:
                 print("-", end="")
@@ -979,7 +972,7 @@ for i in range(1, 42):  # 41 lines
             elif j <= 120:
                 print(":", end="")
         
-        # Line 39
+       
         elif i == 39:
             if j <= 16:
                 print("-", end="")
@@ -990,7 +983,7 @@ for i in range(1, 42):  # 41 lines
             elif j <= 120:
                 print(":", end="")
         
-        # Line 40
+        
         elif i == 40:
             if j <= 38:
                 print(":", end="")
@@ -999,7 +992,7 @@ for i in range(1, 42):  # 41 lines
             elif j <= 120:
                 print(":", end="")
         
-        # Line 41
+       
         elif i == 41:
             if j <= 39:
                 print(":", end="")
@@ -1008,4 +1001,4 @@ for i in range(1, 42):  # 41 lines
             elif j <= 120:
                 print(":", end="")
         
-    print()  # New line after each row
+    print()  

@@ -186,14 +186,6 @@ for line_num, line in enumerate(lines, 1):
 
 ✅ **Perfect Match!**
 
-## 🧪 Testing & Validation
-
-Run the comparison script to verify output matches the source:
-
-```bash
-python compare.py
-```
-
 This will:
 - Execute `pattern_with_conditions.py`
 - Compare output with `vk.txt` line by line
@@ -246,7 +238,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Have questions or suggestions? Feel free to:
 - Open an issue
 - Submit a pull request
-- Contact me directly
+- Contact me directly(rajvardhanmall@gmail.com)
 
 ---
 

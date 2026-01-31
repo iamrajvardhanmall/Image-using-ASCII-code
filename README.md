@@ -24,6 +24,8 @@ This project takes a unique approach to ASCII art generation by converting a tex
 - `if-else` statements
 - No file reading inside loops
 
+YouTube Video Link: https://youtu.be/CPKPPqUhLxE?si=tl6cvc9rOraIgfrg
+
 ## ✨ Features
 
 - **Pure Conditional Logic**: Zero file I/O during pattern generation
